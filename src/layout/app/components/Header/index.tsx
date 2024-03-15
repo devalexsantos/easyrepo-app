@@ -4,7 +4,7 @@ import { LogOut, Menu } from 'lucide-react'
 
 export function Header() {
   return (
-    <div className="p-4 border-b">
+    <header className="p-4 border-b flex flex-col gap-2">
       <div className="container max-w-6xl flex flex-col">
         <div className="flex justify-between items-center">
           <div className="flex gap-2 items-center">
@@ -21,6 +21,6 @@ export function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   )
 }
