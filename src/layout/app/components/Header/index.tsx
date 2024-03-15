@@ -1,6 +1,7 @@
 import { ModeToggle } from '@/components/mode-toggle'
 import { Button } from '@/components/ui/button'
 import { LogOut, Menu } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export function Header() {
   return (
@@ -11,7 +12,9 @@ export function Header() {
             <Button variant="ghost" size="icon">
               <Menu size={24} />
             </Button>
-            <span className="text-xl font-bold italic">easyrepos</span>
+            <Link to="/" className="text-xl font-bold italic">
+              easyrepos
+            </Link>
           </div>
           <div className="flex items-center gap-3">
             <ModeToggle />
