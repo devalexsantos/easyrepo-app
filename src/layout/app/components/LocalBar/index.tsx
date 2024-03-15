@@ -8,7 +8,7 @@ export function LocalBar() {
 
   return (
     <div className="container max-w-6xl">
-      <div className="flex items-center gap-6 p-4">
+      <div className="flex items-center gap-6 py-4">
         <Link
           to="/"
           className={`flex items-center gap-2 pb-2 ${pathname === '/' && 'border-b-2 border-b-orange-600'}`}
@@ -16,7 +16,7 @@ export function LocalBar() {
           <FolderClosed strokeWidth={1} />
           <span>Categories</span>
           <span className="rounded-full bg-primary py-1 px-2 text-secondary text-xs leading-none">
-            3
+            4
           </span>
         </Link>
 

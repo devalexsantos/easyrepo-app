@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export function Header() {
   return (
-    <header className="p-4 border-b flex flex-col gap-2">
+    <header className="py-4 border-b flex flex-col gap-2">
       <div className="container max-w-6xl flex flex-col">
         <div className="flex justify-between items-center">
           <div className="flex gap-2 items-center">
